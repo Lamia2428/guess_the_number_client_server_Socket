@@ -16,9 +16,9 @@ This is a simple Java Socket-based game where clients connect to a server and tr
 
    ```bash
    git clone https://github.com/<Lamia2428>/<guess_the_number_client_server_Socket>.git
-   ```
+   
 
-2. Open the project in your preferred IDE.
+ 2. Open the project in your preferred IDE.
 
 3. Locate the `ServerMT.java` file in the `src` directory.
 
@@ -34,7 +34,7 @@ This is a simple Java Socket-based game where clients connect to a server and tr
 
    ```bash
    cd /path/to/<guess_the_number_client_server_Socket>
-   ```
+   
 
 3. Locate the `Repartiteur.java` file in the `src` directory.
 
@@ -42,13 +42,13 @@ This is a simple Java Socket-based game where clients connect to a server and tr
 
    ```bash
    javac Repartiteur.java
-   ```
+   
 
 5. Run the compiled `Repartiteur` class, providing the server's IP address as a command-line argument.
 
    ```bash
    java Repartiteur <server_ip_address>
-   ```
+
 
    Replace `<server_ip_address>` with the actual IP address of the machine running the server.
 
@@ -66,4 +66,3 @@ Connect to the server using Telnet.
 If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request.
 
 
-```
